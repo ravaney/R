@@ -1,0 +1,10 @@
+library('dplyr')
+install.packages('exifr')
+library('exifr')
+install.packages('leaflet')
+library(leaflet)
+
+files <- list.files(pattern = '*.jpg')
+dat<- exifr(files)
+configure_exiftool(perl_path = )
+install.packages('exifr')
